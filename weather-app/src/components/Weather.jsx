@@ -89,13 +89,15 @@ const WeatherApp = () => {
         <div className="weather-app">
             <h1>Weather Forecast</h1>
             <form onSubmit={handleSubmit}>
+                <div className='form-div'>
                 <input
                     type="text"
                     placeholder="Enter city"
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
                 />
-                <button type="submit">Get Weather</button>
+                <button type="submit">Get</button>
+                </div>
             </form>
             <p>Or else</p>
             <button onClick={handleUseCurrentLocation} className="location-button">
