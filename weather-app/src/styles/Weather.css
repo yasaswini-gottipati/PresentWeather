@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('data:image/jpeg;base64,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');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-app {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.weather-app h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #007bff;
+    width: 24px;
+    height: 24px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.weather-info {
+    text-align: left;
+}
+
+.weather-info h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Small Devices (Portrait Phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .weather-app {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .weather-app h1 {
+        font-size: 20px;
+    }
+
+    input, button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .weather-info h2 {
+        font-size: 18px;
+    }
+    body{
+        background-color: azure;
+    }
+}
+
+ /* Medium Devices (Tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .weather-app {
+        width: 80%;
+    }
+
+    .weather-app h1 {
+        font-size: 22px;
+    }
+
+    input, button {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .weather-info h2 {
+        font-size: 19px;
+    }
+} 
+
+ /* Large Devices (Desktops, 992px and up) */
+@media (min-width: 992px) {
+    .weather-app {
+        width: 400px;
+    }
+
+    .weather-app h1 {
+        font-size: 26px;
+    }
+
+    input, button {
+        font-size: 17px;
+        padding: 12px;
+    }
+
+    .weather-info h2 {
+        font-size: 22px;
+    }
+} 
