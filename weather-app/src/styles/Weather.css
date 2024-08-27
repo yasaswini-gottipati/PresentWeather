@@ -8,10 +8,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width:100%;
 }
+
+
 
 .weather-app {
     background: #fff;
+    margin: auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -24,21 +28,29 @@ body {
     margin-bottom: 20px;
 }
 
-form {
+.weather-app form{
     display: flex;
-    justify-content: space-between;
+    padding: 10px 40px;
+    /* justify-content: space-between;  */
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
 }
 
-input {
+.weather-app .form-div{
+    display: flex;
+  align-items: center;
+}
+
+.weather-app input {
     flex: 1;
-    padding: 10px;
+    padding: 20px;
     border: 2px solid #ddd;
     border-radius: 5px 0 0 5px;
     font-size: 16px;
 }
 
-button {
+.weather-app button {
     padding: 10px 20px;
     border: 2px solid #007bff;
     background-color: #007bff;
@@ -48,11 +60,12 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+
+.weather-app button:hover {
     background-color: #0056b3;
 }
 
-.loader {
+.weather-app .loader {
     border: 4px solid #f3f3f3;
     border-radius: 50%;
     border-top: 4px solid #007bff;
@@ -96,7 +109,7 @@ button:hover {
         font-size: 20px;
     }
 
-    input, button {
+    .weather-app input,.weather-app  button {
         font-size: 14px;
         padding: 8px;
     }
@@ -119,7 +132,7 @@ button:hover {
         font-size: 22px;
     }
 
-    input, button {
+    .weather-app input, .weather-app button {
         font-size: 15px;
         padding: 9px;
     }
@@ -139,7 +152,7 @@ button:hover {
         font-size: 26px;
     }
 
-    input, button {
+    .weather-app input, .weather-app button {
         font-size: 17px;
         padding: 12px;
     }
@@ -148,3 +161,4 @@ button:hover {
         font-size: 22px;
     }
 } 
+
