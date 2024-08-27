@@ -30,7 +30,7 @@ const WeatherApp = () => {
             setWeatherData(res.data);
 
             // Save search history
-            await axios.post('https://present-weather-backend.vercel.app/api/search', { city }, {
+            await axios.post('https://presentweather.onrender.com/api/search', { city }, {
                 headers: {
                     'x-auth-token': localStorage.getItem('token'),
                 },
@@ -51,7 +51,7 @@ const WeatherApp = () => {
             setWeatherData(res.data);
 
             // Save search history
-            await axios.post('https://present-weather-backend.vercel.app/api/search', { city: `${latitude},${longitude}` }, {
+            await axios.post('https://presentweather.onrender.com/api/search', { city: `${latitude},${longitude}` }, {
                 headers: {
                     'x-auth-token': localStorage.getItem('token'),
                 },

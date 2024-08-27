@@ -17,7 +17,7 @@ const Register = () => {
             return;
         }
         try {
-            await axios.post('https://present-weather-backend.vercel.app/api/auth/register', { name, email, password });
+            await axios.post('https://presentweather.onrender.com/api/auth/register', { name, email, password });
             navigate('/');
         } catch (err) {
             console.error(err.response.data.msg);

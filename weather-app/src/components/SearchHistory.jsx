@@ -8,7 +8,7 @@ const SearchHistory = () => {
     useEffect(() => {
         const fetchHistory = async () => {
             try {
-                const res = await axios.get('https://present-weather-backend.vercel.app/api/search', {
+                const res = await axios.get('https://presentweather.onrender.com/api/search', {
                     headers: {
                         'x-auth-token': localStorage.getItem('token'),
                     },
