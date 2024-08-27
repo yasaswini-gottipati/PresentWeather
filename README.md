@@ -32,3 +32,22 @@ The application is built using **React** for the frontend and **Node.js** for th
 
 ```bash
 git clone https://github.com/yourusername/weather-app.git
+```
+##Backend Setup
+-**Navigate to the backend directory**:
+```bash
+cd backend
+```
+-**Install dependencies**:
+```bash
+npm install
+```
+-**Create a .env file**:
+```bash
+PORT=5000
+WEATHER_API_KEY=your_openweather_api_key
+```
+-**Run the backend server:**
+```bash
+npm start
+```
